@@ -5,8 +5,6 @@ from selenium.webdriver.common.keys import Keys
 
 if __name__ == "__main__":
 
-    import speech_recognition as sr
-
     # Record Audio
     r = sr.Recognizer()
     with sr.Microphone() as source:
